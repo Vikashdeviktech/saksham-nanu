@@ -1,0 +1,39 @@
+Go to node js
+Download LTS
+Type node -v in CMD prompt
+Then type npm -v in CMD Prompt
+To create database-mongodb+srv://Cooldabdude156:Xano123@nanu.qsov7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+Then go to CMD, and write npm init
+then press enter until "Is this okay" comes.
+C:\Users\HP\Desktop\BACKEND>npm install express
+it is a framework that helps us to create a server and reduces to lines of code
+C:\Users\HP\Desktop\BACKEND>npm install mongoose
+It is used to connect with database
+C:\Users\HP\Desktop\BACKEND>npm install nodemon
+It is used to start server
+C:\Users\HP\Desktop\BACKEND>npm install validator
+It is used to validate the backend
+C:\Users\HP\Desktop\BACKEND>npm install hbs
+It is a template
+
+
+What is a server?- Anything that serves you fine
+Http- Hyper text transfer protocol
+It is used to send request and recieve response
+Why are we using Node.js?- It is the best language till now
+
+
+Example-
+Minecraft
+1.0-Alpha Version 
+1.14.2- The aquatic update, minor changes like piglins dont drop their swords
+1.16.3- The duplication glitch wont happen
+1.17- The caves and cliffs update
+
+Frontend and backend interact with each other using API calling system.
+API- Application programing interface.
+Package.json- It gives all the dependences required to develop the API(Application Programming interface). It is created by Command Prompt using npm init
+You need to install framework express.js.
+
+Use "POST" to save data in a database
+Use "GET" to take data from the database

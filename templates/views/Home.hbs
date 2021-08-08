@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/Home.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html"><img src="./images/logo.gif" height="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
+              
+          
+          </div>
+        
+        
+          <div>
+              <a link href="Index.html">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Log Out
+                   </button>
+                
+                  
+              </a>
+
+          </div>
+           
+
+        
+        </div>
+      </nav>
+
+    
+    
+    
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('currntly-working')">Currently Working</button>
+    <button class="btn" onclick="filterSelection('offline')"> Offline</button>
+  
+  </div>
+  
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+  <div class="container">
+   <table>
+    <tr>
+        <td><div class="filterDiv currntly-working" onclick="displayMachine()">Machine 1</div></td>
+        <td><div class="filterDiv currntly-working">Machine 2</div></td>
+        <td><div class="filterDiv currntly-working">Machine 3</div></td>
+        <td><div class="filterDiv currntly-working">Machine 4</div></td>
+        <td><div class="filterDiv currntly-working">Machine 5</div></td>
+   </tr>
+   <tr>
+        <td><div class="filterDiv offline">Machine 6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+   </table>
+</div>
+</div>
+<div id="M1" class="animate">
+    
+    <div >
+        <span onclick="document.getElementById('M1').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h3>LM1291</h1>
+        <p>We dont like this machine, take it for 1 arab dollars. No refunds!</p>
+        <h3>Type of Machine</h3>
+        <p>Steel Maker</p>
+        <h3>Manufacturer</h3>
+        <p>SuperNada</p>
+        <h3>Current Status</h3>
+        <p>Online</p>
+        <h3>Seller</h3>
+        <p>KokoBank</p>
+    </div>
+</div>
+
+
+  <script src="Index.js"></script>
+    <script src="Home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+     
+</body>
+</html>
